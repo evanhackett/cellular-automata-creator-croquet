@@ -130,7 +130,7 @@ function CN(grid, x, y) {
 
 
 const apiKey = "1q65cN8gpFatodMM4m4Bu1ghdMIipxg0ssDkyrC8q"; // paste from croquet.io/keys
-const appId = "com.example.myapp";
+const appId = "com.evanhackett.cellular-automata";
 const name = Croquet.App.autoSession();
 const password = Croquet.App.autoPassword();
 Croquet.Session.join({apiKey, appId, name, password, model: MyModel, view: MyView});
